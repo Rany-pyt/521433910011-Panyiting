@@ -96,7 +96,7 @@ void keyTyped() {
     words = words + key;
   }
   //println(key);
-  if ((key >='0' && key<='9')|| key==':') {
+  if ((key >='0' && key<='9')|| key==':'|| key == '.') {
     number = key;
     colours= colours + key;
   }
